@@ -19,6 +19,7 @@ export default function Header({ selectedDate, setSelectedDate }) {
             value={selectedDate}
             onChange={(e) => setSelectedDate(e.target.value)}
             className="header-date-input"
+            disabled // 👈 CON ESTO BLOQUEAMOS EL CALENDARIO POR COMPLETO
           />
         </div>
       </div>
